@@ -26,9 +26,19 @@ A useful and entertaining PyQt5 screensaver that animates a sponge across the sc
 
 **Linux (e.g. xscreensaver):**
 1. Make sure the script closes on mouse movement or key press (see code).
-2. Add the script as a custom screensaver in xscreensaver:
-   - Open xscreensaver settings.
-   - Choose "Custom program" and enter the path to `python3 /path/to/screenwasher.py`.
+2. To add your own screensaver entry, edit the file `~/.xscreensaver` manually:
+   - Open `~/.xscreensaver` in a text editor.
+   - Find the line starting with `programs:`.
+   - Add a new line, for example:
+     ```
+     "Screenwasher" python3 /path/to/screenwasher.py \
+     ```
+     (Make sure to keep the backslash at the end of the previous line.)
+   - Save the file and restart xscreensaver:
+     ```bash
+     xscreensaver-command -restart
+     ```
+   - Now you can select "Screenwasher" in the xscreensaver list.
    - Make sure the script is executable.
 
 **Windows:**
@@ -74,9 +84,19 @@ Ein nützlicher und unterhaltsamer PyQt5-Bildschirmschoner, der einen animierten
 
 **Linux (z.B. mit xscreensaver):**
 1. Stelle sicher, dass das Skript bei Mausbewegung oder Tastendruck beendet wird (siehe Code).
-2. Füge das Skript als benutzerdefinierten Bildschirmschoner in xscreensaver ein:
-   - Öffne die xscreensaver-Konfiguration.
-   - Wähle "Benutzerdefiniertes Programm" und gib den Pfad zu `python3 /pfad/zu/screenwasher.py` an.
+2. Um einen eigenen Bildschirmschoner-Eintrag hinzuzufügen, bearbeite die Datei `~/.xscreensaver` manuell:
+   - Öffne `~/.xscreensaver` in einem Texteditor.
+   - Suche die Zeile, die mit `programs:` beginnt.
+   - Füge eine neue Zeile hinzu, zum Beispiel:
+     ```
+     "Screenwasher" python3 /pfad/zu/screenwasher.py \
+     ```
+     (Achte darauf, dass am Ende der vorherigen Zeile ein Backslash steht.)
+   - Speichere die Datei und starte xscreensaver neu:
+     ```bash
+     xscreensaver-command -restart
+     ```
+   - Nun kannst du "Screenwasher" in der xscreensaver-Liste auswählen.
    - Stelle sicher, dass das Skript ausführbar ist.
 
 **Windows:**
@@ -91,4 +111,3 @@ Ein nützlicher und unterhaltsamer PyQt5-Bildschirmschoner, der einen animierten
 
 **Allgemein:**
 - Für Bildschirmschoner sollte das Programm sofort bei Mausbewegung oder Tastendruck schließen.
-
