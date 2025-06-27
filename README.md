@@ -31,9 +31,9 @@ A useful and entertaining PyQt5 screensaver that animates a sponge across the sc
    - Find the line starting with `programs:`.
    - Add a new line, for example:
      ```
-     "Screenwasher" python3 /path/to/screenwasher.py \
+     "Screenwasher" python3 /path/to/screenwasher.py \\
      ```
-     (Make sure to keep the backslash at the end of the previous line.)
+     (Make sure to keep 2 backslash at the end of the previous line.)
    - Save the file and restart xscreensaver:
      ```bash
      xscreensaver-command -restart
@@ -89,9 +89,9 @@ Ein nützlicher und unterhaltsamer PyQt5-Bildschirmschoner, der einen animierten
    - Suche die Zeile, die mit `programs:` beginnt.
    - Füge eine neue Zeile hinzu, zum Beispiel:
      ```
-     "Screenwasher" python3 /pfad/zu/screenwasher.py \
+     "Screenwasher" python3 /pfad/zu/screenwasher.py \\
      ```
-     (Achte darauf, dass am Ende der vorherigen Zeile ein Backslash steht.)
+     (Achte darauf, dass am Ende der vorherigen Zeile 2 Backslash stehen.)
    - Speichere die Datei und starte xscreensaver neu:
      ```bash
      xscreensaver-command -restart
