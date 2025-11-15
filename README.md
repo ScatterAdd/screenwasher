@@ -1,5 +1,8 @@
 # screenwasher
 
+    This project is licensed under the GNU General Public License v3.0. See the 
+    LICENSE file for details.
+
 # English
 
 A useful and entertaining PyQt5 screensaver that animates a sponge across the screen. The sponge leaves a vibrant, semi-transparent cleaning trail, with a new color for every movement. Various movement patterns (horizontal, vertical, diagonal, zigzag, circle, ellipse, spiral) create a colorful, chaotic artwork.
@@ -111,3 +114,15 @@ Ein nützlicher und unterhaltsamer PyQt5-Bildschirmschoner, der einen animierten
 
 **Allgemein:**
 - Für Bildschirmschoner sollte das Programm sofort bei Mausbewegung oder Tastendruck schließen.
+
+# License
+   This project is licensed under the GNU General Public License v3.0. See the 
+   LICENSE file for details.
+
+## Third‑party libraries and licenses
+   PyQt5 (Riverbank): GPL (see included license file or upstream)
+   PyOpenGL (if used): BSD/MIT‑style (check upstream)
+   All bundled third‑party license texts are retained in this repository. If you   
+   include any external files or binaries, see the corresponding license files in the
+   repo.
+
