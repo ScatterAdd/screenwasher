@@ -121,7 +121,9 @@ Ein nützlicher und unterhaltsamer PyQt5-Bildschirmschoner, der einen animierten
 
 ## Third‑party libraries and licenses
    PyQt5 (Riverbank): GPL (see included license file or upstream)
+   
    PyOpenGL (if used): BSD/MIT‑style (check upstream)
+   
    All bundled third‑party license texts are retained in this repository. If you   
    include any external files or binaries, see the corresponding license files in the
    repo.
